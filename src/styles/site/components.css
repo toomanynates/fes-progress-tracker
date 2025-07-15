@@ -328,6 +328,7 @@ a, button {
 /* Section heading */
 .section-heading {
   display: flex;
+  flex-direction: column;
   gap: var(--layout-space-sm);
   margin-block-start: var(--layout-space-xl);
 
@@ -341,4 +342,23 @@ a, button {
   padding: .25rem 1rem .25rem .5rem;
   background: #fff;
   border: 1px solid var(--color-500);
+}
+
+.class-update {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: var(--layout-space-xs) var(--layout-space-sm);
+  font-size: .875rem;
+
+  .class-update-item {
+    display: flex;
+    gap: var(--layout-space-xs);
+    align-items: center;
+
+    @media (--viewport-xs-down) {
+      width: 100%;
+      justify-content: space-between;
+    }
+  }
 }

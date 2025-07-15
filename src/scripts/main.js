@@ -1,47 +1,54 @@
 window.addEventListener('DOMContentLoaded', (event) => {
   
-  // Demos
+  // ----- Demos -----
+  // Class updates
+  const classUpdate = document.querySelectorAll('.class-update');
 
-  const updateClasses = document.querySelectorAll('.demo-class-update');
-
-	for (const item of updateClasses) {
-		let target = item.dataset['target'];
+  for (const item of classUpdate) {
+    let target = item.dataset['target'];
     if (!target) return;
 
-    let targetElement = document.querySelectorAll(item.dataset['target']);
+    let targetElement = document.querySelectorAll(target);
     for (const item of targetElement) {
-      item.updateClass = {};
-      item.updateClass.currentClass = [...item.classList];
+      item.classUpdate = {};
+      item.classUpdate.classCurrent = [...item.classList];
     }
 
+    const classUpdateTrigger = item.querySelectorAll('select');
 
-    item.addEventListener('change', (event) => {
-      let oldClass = [];
-      for (const option of event.target.options) {
-        oldClass.push(option.value.split(' '))
-      }
-      oldClass = oldClass.flat();
-
-      let newClass = event.target.value.split(' ');
-
-      for (const demo of targetElement) {
-        let oldClassToApply = oldClass.filter(item => !demo.updateClass.currentClass.includes(item));
-        let newClassToApply = newClass.filter(item => !demo.updateClass.currentClass.includes(item));
-
-        for (const item of oldClassToApply) {
-          let cssClass = item;
-          if (cssClass) demo.classList.remove(item);
-        }        
-        
-        for (const item of newClassToApply) {
-          let cssClass = item;
-          if (cssClass) demo.classList.add(item);
+    for (const item of classUpdateTrigger) {
+  
+      item.addEventListener('change', (event) => {
+        let oldClass = [];
+        for (const option of event.target.options) {
+          oldClass.push(option.value.split(' '))
         }
-      }
-    })
-    
-	};
+        oldClass = oldClass.flat();
+  
+        let newClass = event.target.value.split(' ');
+  
+        for (const demo of targetElement) {
+          let oldClassToApply = oldClass.filter(item => !demo.classUpdate.classCurrent.includes(item));
+          let newClassToApply = newClass.filter(item => !demo.classUpdate.classCurrent.includes(item));
+  
+          for (const item of oldClassToApply) {
+            let cssClass = item;
+            if (cssClass) demo.classList.remove(item);
+          }        
+          
+          for (const item of newClassToApply) {
+            let cssClass = item;
+            if (cssClass) demo.classList.add(item);
+          }
+        }
+      })
+      
+    };
+  };
 
+
+
+  // Animation demo
   const demoAnimButtons = document.querySelectorAll('.progress-tracker--anim button');
 
   for (const item of demoAnimButtons) {
@@ -50,6 +57,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
 
       for (const item of demoAnimButtons) {
         item.closest('.progress-step').classList.remove('is-active');
+        item.closest('.progress-step').removeAttribute('aria-current');
       }
       
       let step = item.closest('.progress-step');
@@ -58,12 +66,14 @@ window.addEventListener('DOMContentLoaded', (event) => {
         step.classList.add('is-complete');
         if(step.nextElementSibling !== null) {
           step.nextElementSibling.classList.add('is-active');
+          step.nextElementSibling.setAttribute('aria-current', 'step');
         }
       }
       else {
         step.classList.remove('is-complete');
         if(step.previousElementSibling !== null) {
           step.previousElementSibling.classList.remove('is-active');
+          step.previousElementSibling.removeAttribute('aria-current');
         }
       }
     });
@@ -72,7 +82,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
 
 
   
-  // Site
+  // ----- Site -----
 
   // Encoded text
   const encodeElements = document.querySelectorAll('.encode');

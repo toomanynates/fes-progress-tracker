@@ -49,13 +49,12 @@
             <img src="images/progress-tracker-logo.svg" class="page-intro-img" width="80" height="80" alt="Progress Tracker logo">
           </div>
 
-          <!-- <h3>Features</h3> 
+          <h3>Features</h3> 
           <ul class="columns-sm-2">
-            <li>Native <a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Share_API">Web Share API</a> is used if available</li>
-            <li>Copy to clipboard</li>
-            <li>Share directly to social platforms</li>
-            <li>Updates text on share success</li>
-          </ul> -->
+            <li>Horizontal or vertical alignment to the start, center or end</li>
+            <li>Reverse the text position</li>
+            <li>Spaced, Square, Dashed, Counter and Inline variants</li>
+          </ul>
           
         </div>
       </section>
@@ -69,41 +68,71 @@
           
           <h3>Markers</h3>
 
-          <section class="demo demo--default">
+          <section class="demo">
             <ol class="progress-tracker">
               <li class="progress-step is-complete"></li>
               <li class="progress-step is-complete"></li>
-              <li class="progress-step is-active"></li>
+              <li class="progress-step is-active" aria-current="step"></li>
               <li class="progress-step"></li>
               <li class="progress-step"></li>
             </ol>  
           </section>
 
-          <section class="demo demo--marker-counter">
-            <ol class="progress-tracker progress-tracker--marker-counter">
+          <section class="demo">
+            <ol class="progress-tracker progress-tracker--spaced">
               <li class="progress-step is-complete"></li>
               <li class="progress-step is-complete"></li>
-              <li class="progress-step is-active"></li>
+              <li class="progress-step is-active" aria-current="step"></li>
               <li class="progress-step"></li>
               <li class="progress-step"></li>
             </ol>
           </section>
 
-          <section class="demo demo--marker-dataset">
+          <section class="demo">
+            <ol class="progress-tracker progress-tracker--dashed-even">
+              <li class="progress-step is-complete"></li>
+              <li class="progress-step is-complete"></li>
+              <li class="progress-step is-active" aria-current="step"></li>
+              <li class="progress-step"></li>
+              <li class="progress-step"></li>
+            </ol>  
+          </section>
+
+          <section class="demo">
+            <ol class="progress-tracker progress-tracker--dashed">
+              <li class="progress-step is-complete"></li>
+              <li class="progress-step is-complete"></li>
+              <li class="progress-step is-active" aria-current="step"></li>
+              <li class="progress-step"></li>
+              <li class="progress-step"></li>
+            </ol>  
+          </section>
+
+          <section class="demo">
+            <ol class="progress-tracker progress-tracker--marker-counter">
+              <li class="progress-step is-complete"></li>
+              <li class="progress-step is-complete"></li>
+              <li class="progress-step is-active" aria-current="step"></li>
+              <li class="progress-step"></li>
+              <li class="progress-step"></li>
+            </ol>
+          </section>
+
+          <section class="demo">
             <ol class="progress-tracker progress-tracker--marker-dataset">
               <li class="progress-step is-complete" data-text="A1"></li>
               <li class="progress-step is-complete" data-text="A2"></li>
-              <li class="progress-step is-active" data-text="X"></li>
+              <li class="progress-step is-active" aria-current="step" data-text="X"></li>
               <li class="progress-step" data-text="✓"></li>
               <li class="progress-step" data-text="😃"></li>
             </ol>
           </section>
-
-          <section class="demo demo--marker-dataset">
+      
+          <section class="demo">
             <ol class="progress-tracker progress-tracker--marker-square">
               <li class="progress-step is-complete"></li>
               <li class="progress-step is-complete"></li>
-              <li class="progress-step is-active"></li>
+              <li class="progress-step is-active" aria-current="step"></li>
               <li class="progress-step"></li>
               <li class="progress-step"></li>
             </ol>
@@ -113,21 +142,36 @@
           <div class="section-heading">
             <h3>Markers with text</h3>
 
-            <div class="demo-classes">
-              <label for="demo-classes--text">Layout: </label>
-              <select id="demo-classes--text" class="select demo-class-update" data-target=".demo--text .progress-tracker">
-                <option value="" selected>Default</option>
+            <div class="class-update" data-target=".demo--text .progress-tracker">
+              <div class="class-update-item">
+                <label for="class-update-demo-text-inline">Inline align: </label>
+                <select id="class-update-demo-text-inline" class="select">
+                  <option value="" selected>Start</option>
+                  <option value="progress-tracker--center">Center</option>
+                  <option value="progress-tracker--end">End</option>
+                </select> 
+              </div>
 
-                <option value="progress-tracker--center">Center aligned</option>
-                <option value="progress-tracker--right">Right aligned</option>
+              <div class="class-update-item">
+                <label for="class-update-demo-text-block">Block align: </label>
+                <select id="class-update-demo-text-block" class="select">
+                  <option value="" selected>Default</option>
+                  <option value="progress-tracker--reverse">Reverse</option>
+                </select>
+              </div>
 
-                <option value="progress-tracker--reverse">Reverse</option>
-                <option value="progress-tracker--reverse progress-tracker--center">Reverse center</option>
-                <option value="progress-tracker--reverse progress-tracker--right">Reverse right</option>
-              </select>
+              <div class="class-update-item">
+                <label for="class-update-demo-text-variant">Variant: </label>
+                <select id="class-update-demo-text-variant" class="select">
+                  <option value="" selected>Default</option>
+                  <option value="progress-tracker--dashed">Dashed</option>
+                  <option value="progress-tracker--dashed-even">Dashed even</option>
+                  <option value="progress-tracker--spaced">Spaced</option>
+                  <option value="progress-tracker--marker-square">Square</option>
+                </select>
+              </div>
             </div>
           </div>
-
 
           <section class="demo demo--text">
             <ol class="progress-tracker">
@@ -138,100 +182,7 @@
                 </div>
               </li>
     
-              <li class="progress-step is-active">
-                <div class="progress-text">
-                  <h4 class="progress-title">Step 2</h4>
-                  <p>Text explaining this step to the user.</p>
-                </div>
-              </li>
-    
-              <li class="progress-step" aria-current="step">
-                <div class="progress-text">
-                  <h4 class="progress-title">Step 3</h4>
-                  <p>Shorter text explanation.</p>
-                </div>
-              </li>
-            </ol>
-          </section>
-
-          <section class="demo demo--text">
-            <ol class="progress-tracker progress-tracker--marker-square">
-              <li class="progress-step is-complete">
-                <div class="progress-text">
-                  <h4 class="progress-title">Step 1</h4>
-                  <p>Text explaining this step to the user.</p>
-                </div>
-              </li>
-    
-              <li class="progress-step is-active">
-                <div class="progress-text">
-                  <h4 class="progress-title">Step 2</h4>
-                  <p>Text explaining this step to the user.</p>
-                </div>
-              </li>
-    
-              <li class="progress-step" aria-current="step">
-                <div class="progress-text">
-                  <h4 class="progress-title">Step 3</h4>
-                  <p>Shorter text explanation.</p>
-                </div>
-              </li>
-            </ol>
-          </section>
-
-
-          <div class="section-heading">
-            <h3>Spaced</h3>
-
-            <div class="demo-classes">
-              <label for="demo-classes--spaced">Layout: </label>
-              <select id="demo-classes--spaced" class="select demo-class-update" data-target=".demo--spaced .progress-tracker">
-                <option value="" selected>Default</option>
-                <option value="progress-tracker--center">Center aligned</option>
-                <option value="progress-tracker--right">Right aligned</option>
-
-                <option value="progress-tracker--reverse">Reverse</option>
-                <option value="progress-tracker--reverse progress-tracker--center">Reverse center</option>
-                <option value="progress-tracker--reverse progress-tracker--right">Reverse right</option>
-              </select>
-            </div>
-          </div>
-
-          <section class="demo demo--spaced">
-            <ol class="progress-tracker progress-tracker--spaced">
-              <li class="progress-step is-complete">
-                <div class="progress-text">
-                  <h4 class="progress-title">Step 1</h4>
-                  <p>Text explaining this step to the user.</p>
-                </div>
-              </li>
-    
-              <li class="progress-step is-active">
-                <div class="progress-text">
-                  <h4 class="progress-title">Step 2</h4>
-                  <p>Text explaining this step to the user.</p>
-                </div>
-              </li>
-    
-              <li class="progress-step" aria-current="step">
-                <div class="progress-text">
-                  <h4 class="progress-title">Step 3</h4>
-                  <p>Shorter text explanation.</p>
-                </div>
-              </li>
-            </ol>
-          </section>
-
-          <section class="demo demo--spaced">
-            <ol class="progress-tracker progress-tracker--spaced progress-tracker--marker-square">
-              <li class="progress-step is-complete">
-                <div class="progress-text">
-                  <h4 class="progress-title">Step 1</h4>
-                  <p>Text explaining this step to the user.</p>
-                </div>
-              </li>
-    
-              <li class="progress-step is-active">
+              <li class="progress-step is-active" aria-current="step">
                 <div class="progress-text">
                   <h4 class="progress-title">Step 2</h4>
                   <p>Text explaining this step to the user.</p>
@@ -275,9 +226,7 @@
           </section>
 
 
-          <div class="section-heading">
-            <h3>Inline text</h3>
-          </div>
+          <h3>Inline text</h3>
 
           <section class="demo demo--inline">
             <ol class="progress-tracker progress-tracker--inline">
@@ -287,13 +236,13 @@
                 </div>
               </li>
     
-              <li class="progress-step is-active">
+              <li class="progress-step is-active" aria-current="step">
                 <div class="progress-text">
                   <h4 class="progress-title">Step 2</h4>
                 </div>
               </li>
     
-              <li class="progress-step" aria-current="step">
+              <li class="progress-step">
                 <div class="progress-text">
                   <h4 class="progress-title">Step 3</h4>
                 </div>
@@ -302,20 +251,20 @@
           </section>
 
           <section class="demo demo--inline">
-            <ol class="progress-tracker progress-tracker--inline progress-tracker--inline-text-right">
+            <ol class="progress-tracker progress-tracker--inline progress-tracker--inline-text-end">
               <li class="progress-step is-complete">
                 <div class="progress-text">
                   <h4 class="progress-title">Step 1</h4>
                 </div>
               </li>
     
-              <li class="progress-step is-active">
+              <li class="progress-step is-active" aria-current="step">
                 <div class="progress-text">
                   <h4 class="progress-title">Step 2</h4>
                 </div>
               </li>
     
-              <li class="progress-step" aria-current="step">
+              <li class="progress-step">
                 <div class="progress-text">
                   <h4 class="progress-title">Step 3</h4>
                 </div>
@@ -327,13 +276,26 @@
           <div class="section-heading">
             <h3>Vertical</h3>
 
-            <div class="demo-classes">
-              <label for="demo-classes--vertical">Layout: </label>
-              <select id="demo-classes--vertical" class="select demo-class-update" data-target=".demo--vertical .progress-tracker">
-                <option value="" selected>Default</option>
-                <option value="progress-tracker--center">Center aligned</option>
-                <option value="progress-tracker--right">Right aligned</option>
-              </select>
+            <div class="class-update" data-target=".demo--vertical .progress-tracker">
+              <div class="class-update-item">
+                <label for="class-update-demo-vertical-inline">Inline align: </label>
+                <select id="class-update-demo-vertical-inline" class="select">
+                  <option value="" selected>Start</option>
+                  <option value="progress-tracker--center">Center</option>
+                  <option value="progress-tracker--end">End</option>
+                </select> 
+              </div>
+
+              <div class="class-update-item">
+                <label for="class-update-demo-vertical-variant">Variant: </label>
+                <select id="class-update-demo-vertical-variant" class="select">
+                  <option value="" selected>Default</option>
+                  <option value="progress-tracker--dashed">Dashed</option>
+                  <option value="progress-tracker--dashed-even">Dashed even</option>
+                  <option value="progress-tracker--spaced">Spaced</option>
+                  <option value="progress-tracker--marker-square">Square</option>
+                </select>
+              </div>
             </div>
           </div>
 
@@ -346,14 +308,14 @@
                 </div>
               </li>
     
-              <li class="progress-step is-active">
+              <li class="progress-step is-active" aria-current="step">
                 <div class="progress-text">
                   <h4 class="progress-title">Step 2</h4>
                   <p>Text explaining this step to the user.</p>
                 </div>
               </li>
     
-              <li class="progress-step" aria-current="step">
+              <li class="progress-step">
                 <div class="progress-text">
                   <h4 class="progress-title">Step 3</h4>
                   <p>Shorter text explanation.</p>
@@ -361,46 +323,6 @@
               </li>
             </ol>
           </section>
-
-
-          <div class="section-heading">
-            <h3>Vertical spaced</h3>
-
-            <div class="demo-classes">
-              <label for="demo-classes--vertical">Layout: </label>
-              <select id="demo-classes--vertical" class="select demo-class-update" data-target=".demo--vertical-spaced .progress-tracker">
-                <option value="" selected>Default</option>
-                <option value="progress-tracker--center">Center aligned</option>
-                <option value="progress-tracker--right">Right aligned</option>
-              </select>
-            </div>
-          </div>
-
-          <section class="demo demo--vertical-spaced">
-            <ol class="progress-tracker progress-tracker--vertical progress-tracker--spaced">
-              <li class="progress-step is-complete">
-                <div class="progress-text">
-                  <h4 class="progress-title">Step 1</h4>
-                  <p>Text explaining this step to the user.</p>
-                </div>
-              </li>
-    
-              <li class="progress-step is-active">
-                <div class="progress-text">
-                  <h4 class="progress-title">Step 2</h4>
-                  <p>Text explaining this step to the user.</p>
-                </div>
-              </li>
-    
-              <li class="progress-step" aria-current="step">
-                <div class="progress-text">
-                  <h4 class="progress-title">Step 3</h4>
-                  <p>Shorter text explanation.</p>
-                </div>
-              </li>
-            </ol>
-          </section>
-
 
         </div>
       </section>
@@ -425,7 +347,7 @@
   &lt;li class="progress-step is-complete"&gt;
     &lt;div class="progress-text"&gt; ... &lt;/div&gt;
   &lt;/li&gt;
-  &lt;li class="progress-step is-active"&gt;
+  &lt;li class="progress-step is-active" aria-current="step"&gt;
     &lt;div class="progress-text"&gt; ... &lt;/div&gt;
   &lt;/li&gt;
   &lt;li class="progress-step"&gt;
@@ -445,9 +367,23 @@
       <th>Class</th>
       <th>Description</th>
     </tr>
+
     <tr>
       <td>progress-tracker</td>
-      <td>Default layout.</td>
+      <td>Default layout, start aligned.</td>
+    </tr>
+    <tr>
+      <td>progress-tracker--center</td>
+      <td>Center aligned layout.</td>
+    </tr>
+    <tr>
+      <td>progress-tracker--end</td>
+      <td>End aligned layout.</td>
+    </tr>
+    
+    <tr>
+      <td>progress-tracker--reverse</td>
+      <td>Reversed layout, i.e. text on top.</td>
     </tr>
 
     <tr>
@@ -457,46 +393,44 @@
     <tr>
       <td>progress-tracker--marker-dataset</td>
       <td>Adds text to the marker from data-text on the step.</td>
-    </tr>    
+    </tr>  
+
+    <tr>
+      <td>progress-tracker--spaced</td>
+      <td>Space added around markers.</td>
+    </tr>
+    <tr>
+      <td>progress-tracker--dashed</td>
+      <td>Path is dashed to a set size i.e. each dash is the same size.</td>
+    </tr>
+    <tr>
+      <td>progress-tracker--dashed-even</td>
+      <td>Path is dashed to a fill the space i.e. dash size is dynamic based on available space.</td>
+    </tr>
+
     <tr>
       <td>progress-tracker--marker-square</td>
       <td>Square marker shape.</td>
     </tr>
-    
-    <tr>
-      <td>progress-tracker--spaced</td>
-      <td>Space added around markers.</td>
-    </tr>  
 
-    <tr>
-      <td>progress-tracker--inline</td>
-      <td>Marker text is in line with the steps.</td>
-    </tr>  
-
-    <tr>
-      <td>progress-tracker--center</td>
-      <td>Center aligned layout.</td>
-    </tr>
-    <tr>
-      <td>progress-tracker--right</td>
-      <td>Right aligned layout.</td>
-    </tr>
-    
-    <tr>
-      <td>progress-tracker--reverse</td>
-      <td>Reversed layout, i.e. text on top.</td>
-    </tr>
-    
-    <tr>
-      <td>progress-tracker--vertical</td>
-      <td>Vertically aligned layout.</td>
-    </tr>
-    
     <tr>
       <td>progress-tracker--anim</td>
       <td>Allows animation of path.</td>
     </tr>
 
+    <tr>
+      <td>progress-tracker--inline</td>
+      <td>Marker text is inline with the marker.</td>
+    </tr>
+    <tr>
+      <td>progress-tracker--inline-end</td>
+      <td>As above but text is at the end of the marker.</td>
+    </tr>
+
+    <tr>
+      <td>progress-tracker--vertical</td>
+      <td>Vertically aligned layout.</td>
+    </tr>
   </tbody></table>
   </div>
 

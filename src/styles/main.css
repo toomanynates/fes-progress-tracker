@@ -848,6 +848,7 @@ a .icon, button .icon {
 /* Section heading */
 .section-heading {
   display: flex;
+  flex-direction: column;
   gap: 16px;
   gap: var(--layout-space-sm);
   margin-top: 64px;
@@ -863,6 +864,26 @@ a .icon, button .icon {
   border: 1px solid rgb(1, 87, 255);
   border: 1px solid var(--color-500);
 }
+.class-update {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 8px 16px;
+  gap: var(--layout-space-xs) var(--layout-space-sm);
+  font-size: .875rem;
+}
+.class-update .class-update-item {
+    display: flex;
+    gap: 8px;
+    gap: var(--layout-space-xs);
+    align-items: center;
+  }
+@media (max-width: 479px) {
+.class-update .class-update-item {
+      width: 100%;
+      justify-content: space-between;
+  }
+    }
 /* Demo */
 /* Social image - 1200x630 */
 /* body {

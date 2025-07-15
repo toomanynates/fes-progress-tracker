@@ -3,7 +3,7 @@
   --marker-size-block: 32px;
   --marker-size-inline: var(--marker-size-block);
   --marker-size-half: calc(var(--marker-size-block) * 0.5);
-  --marker-spacing: -1px; /* Fix for rounding errors */
+  --marker-spacing: 0px;
   
   --marker-bg: #999;
   --marker-bg-active: #0034a3;
@@ -120,7 +120,6 @@
 
 
 /* States */
-
     .progress-step {
 
       &.is-active {
@@ -154,109 +153,7 @@
     }
 
 
-
-/* Variants */
-.progress-tracker--marker-counter {
-  .progress-step {
-    &::before {
-      content: counter(step);
-      counter-increment: step;
-    }
-  }
-}
-
-.progress-tracker--marker-dataset {
-  .progress-step {
-    &::before {
-      content: attr(data-text);
-      content: attr(data-text, "");
-    }
-  }
-}
-
-.progress-tracker--marker-square {
-  --marker-size-block: 24px;
-  --marker-size-inline: 4px;
-  --path-position-block: calc(var(--marker-size-block) - var(--path-size-block));
-
-  .progress-step {
-    &::before {
-      border-radius: 0;
-    }    
-  }
-}
-
-
-.progress-tracker--spaced {
-  --marker-spacing: 8px;
-}
-
-
-.progress-tracker--inline {
-  overflow: auto;
-  
-  .progress-step {
-    align-items: center;
-    flex-direction: row;
-    min-width: fit-content;
-
-    &::before {
-      flex-shrink: 0;
-      order: 2;
-    }
-
-    &::after {
-      position: relative;
-      inset-block-start: auto;
-      inset-inline-start: 0;
-      order: 3;
-    }
-  }
-
-    .progress-text {
-      flex: 0 0 auto;
-      padding: 8px 12px;
-
-      &:has(*:nth-child(2)) {
-        flex-basis: min-content;
-      }
-    }
-  
-  &:not(.progress-tracker--inline-text-right) .progress-step:first-child {
-    .progress-text {
-      padding-inline-start: 0;
-    }
-  }
-}
-
-.progress-tracker--inline-text-right {
-  .progress-text {
-    order: 2;
-  }
-}
-
-
-.progress-tracker--vertical {
-  flex-direction: column;
-
-  .progress-step {
-    flex-direction: row;
-
-    &::after {
-      inset-block-start: calc(var(--marker-size-block) + var(--marker-spacing));
-      inset-inline-start: var(--path-position-block);
-      width: var(--path-size-block);
-      height: var(--path-size-inline);
-    }
-  }
-
-    .progress-text {
-      flex-grow: 1;
-      padding-block: 4px 12px;
-    }
-}
-
-
+/* Alignment */
 .progress-tracker--center {
   --path-position-inline: calc(50% + (var(--marker-size-inline) / 2) + var(--marker-spacing));
 
@@ -274,7 +171,7 @@
   }
 }
 
-.progress-tracker--right {
+.progress-tracker--end {
   --path-position-inline: calc(100% + var(--marker-spacing));
 
   text-align: right;
@@ -295,7 +192,6 @@
   }
 }
 
-
 .progress-tracker--reverse {
 
   &:not(.progress-tracker--vertical) .progress-step {
@@ -315,6 +211,80 @@
       order: -1;
       flex-grow: 1;
     }
+}
+
+
+/* Variants */
+.progress-tracker--marker-counter {
+  .progress-step {
+    &::before {
+      content: counter(step);
+      counter-increment: step;
+    }
+  }
+}
+
+.progress-tracker--marker-dataset {
+  .progress-step {
+    &::before {
+      content: attr(data-text);
+      content: attr(data-text, "");
+    }
+  }
+}
+
+
+.progress-tracker--dashed, .progress-tracker--dashed-even {
+  --path-dash-size: 8px;
+  --path-dash-count: 0;
+  --path-dash-calc: var(--path-dash-size);
+  --path-direction: right;
+  --marker-spacing: 8px;
+
+  .progress-step {
+    &:not(:last-child)::after {
+      background: repeating-linear-gradient(to var(--path-direction), var(--bg) 0px var(--path-dash-calc), transparent var(--path-dash-calc) calc(var(--path-dash-calc)*2));
+    }
+  }
+
+  &.progress-tracker--vertical {
+    --path-direction: bottom;
+  }
+}
+
+.progress-tracker--dashed-even {
+  --path-dash-size: 0px; 
+  --path-dash-count: 4;
+  --path-dash-percent: calc(100% / (var(--path-dash-count) + (var(--path-dash-count) - 1)));
+  --path-dash-calc: calc(100% / (var(--path-dash-count) + (var(--path-dash-count) - 1)));
+  --path-dash-calc: var(--path-dash-percent);
+  --marker-spacing: 0px;
+
+  @supports (height: round(up, 100.1px, 1px)) {
+    --path-dash-calc: round(up, var(--path-dash-percent), .5px);
+ }
+}
+
+.progress-tracker--spaced {
+  --marker-spacing: 8px;
+}
+
+.progress-tracker--marker-square {
+  --marker-size-block: 24px;
+  --marker-size-inline: 4px;
+  --path-position-block: calc(var(--marker-size-block) - var(--path-size-block));
+
+  .progress-step {
+    &::before {
+      border-radius: 0;
+    }    
+  }
+
+  &.progress-tracker--vertical {
+    --marker-size-inline: 24px;
+    --marker-size-block: 4px;
+    --path-size-inline: calc(100% - (var(--marker-spacing) * 2));
+  }
 }
 
 
@@ -348,4 +318,68 @@
       }
     }
   }
+}
+
+.progress-tracker--inline {
+  overflow: auto;
+  
+  .progress-step {
+    align-items: center;
+    flex-direction: row;
+    min-width: fit-content;
+
+    &::before {
+      flex-shrink: 0;
+      order: 2;
+    }
+
+    &::after {
+      position: relative;
+      inset-block-start: auto;
+      inset-inline-start: 0;
+      order: 3;
+    }
+  }
+
+    .progress-text {
+      flex: 0 0 auto;
+      padding: 8px 12px;
+
+      &:has(*:nth-child(2)) {
+        flex-basis: min-content;
+      }
+    }
+  
+  &:not(.progress-tracker--inline-text-end) .progress-step:first-child {
+    .progress-text {
+      padding-inline-start: 0;
+    }
+  }
+}
+
+.progress-tracker--inline-text-end {
+  .progress-text {
+    order: 2;
+  }
+}
+
+
+.progress-tracker--vertical {
+  flex-direction: column;
+
+  .progress-step {
+    flex-direction: row;
+
+    &::after {
+      inset-block-start: calc(var(--marker-size-block) + var(--marker-spacing));
+      inset-inline-start: var(--path-position-block);
+      width: var(--path-size-block);
+      height: var(--path-size-inline);
+    }
+  }
+
+    .progress-text {
+      flex-grow: 1;
+      padding-block: 4px 12px;
+    }
 }

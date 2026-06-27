@@ -1,0 +1,2348 @@
+{
+  "modules": [
+    {
+      "id": "00",
+      "title": "Welcome to FES Institute",
+      "status": "complete",
+      "chapterCount": 4,
+      "chapters": [
+        {
+          "id": "00-01",
+          "title": "Chapter 1",
+          "status": "complete",
+          "lessons": [
+            { "id": "00-01-01", "title": "Lesson 1", "text": "Lesson Description", "status": "complete" }
+          ]
+        },
+        {
+          "id": "00-02",
+          "title": "Chapter 2",
+          "status": "complete",
+          "lessons": [
+            { "id": "00-02-01", "title": "Lesson 1", "text": "Lesson Description", "status": "complete" }
+          ]
+        },
+        {
+          "id": "00-03",
+          "title": "Chapter 3",
+          "status": "complete",
+          "lessons": [
+            { "id": "00-03-01", "title": "Lesson 1", "text": "Lesson Description", "status": "complete" }
+          ]
+        },
+        {
+          "id": "00-04",
+          "title": "Chapter 4",
+          "status": "complete",
+          "lessons": [
+            { "id": "00-04-01", "title": "Lesson 1", "text": "Lesson Description", "status": "complete" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "title": "From Nothing → A Real Website",
+      "status": "complete",
+      "chapterCount": 22,
+      "chapters": [
+        {
+          "id": "01-01",
+          "title": "Chapter 1",
+          "status": "complete",
+          "lessons": [
+            { "id": "01-01-01", "title": "Lesson 1", "text": "Lesson Description", "status": "complete" }
+          ]
+        },
+        {
+          "id": "01-02",
+          "title": "Chapter 2",
+          "status": "complete",
+          "lessons": [
+            { "id": "01-02-01", "title": "Lesson 1", "text": "Lesson Description", "status": "complete" }
+          ]
+        },
+        {
+          "id": "01-03",
+          "title": "Chapter 3",
+          "status": "complete",
+          "lessons": [
+            { "id": "01-03-01", "title": "Lesson 1", "text": "Lesson Description", "status": "complete" }
+          ]
+        },
+        {
+          "id": "01-04",
+          "title": "Chapter 4",
+          "status": "complete",
+          "lessons": [
+            { "id": "01-04-01", "title": "Lesson 1", "text": "Lesson Description", "status": "complete" }
+          ]
+        },
+        {
+          "id": "01-05",
+          "title": "Chapter 5",
+          "status": "complete",
+          "lessons": [
+            { "id": "01-05-01", "title": "Lesson 1", "text": "Lesson Description", "status": "complete" }
+          ]
+        },
+        {
+          "id": "01-06",
+          "title": "Chapter 6",
+          "status": "complete",
+          "lessons": [
+            { "id": "01-06-01", "title": "Lesson 1", "text": "Lesson Description", "status": "complete" }
+          ]
+        },
+        {
+          "id": "01-07",
+          "title": "Chapter 7",
+          "status": "complete",
+          "lessons": [
+            { "id": "01-07-01", "title": "Lesson 1", "text": "Lesson Description", "status": "complete" }
+          ]
+        },
+        {
+          "id": "01-08",
+          "title": "Chapter 8",
+          "status": "complete",
+          "lessons": [
+            { "id": "01-08-01", "title": "Lesson 1", "text": "Lesson Description", "status": "complete" }
+          ]
+        },
+        {
+          "id": "01-09",
+          "title": "Chapter 9",
+          "status": "complete",
+          "lessons": [
+            { "id": "01-09-01", "title": "Lesson 1", "text": "Lesson Description", "status": "complete" }
+          ]
+        },
+        {
+          "id": "01-10",
+          "title": "Chapter 10",
+          "status": "complete",
+          "lessons": [
+            { "id": "01-10-01", "title": "Lesson 1", "text": "Lesson Description", "status": "complete" }
+          ]
+        },
+        {
+          "id": "01-11",
+          "title": "Chapter 11",
+          "status": "complete",
+          "lessons": [
+            { "id": "01-11-01", "title": "Lesson 1", "text": "Lesson Description", "status": "complete" }
+          ]
+        },
+        {
+          "id": "01-12",
+          "title": "Chapter 12",
+          "status": "complete",
+          "lessons": [
+            { "id": "01-12-01", "title": "Lesson 1", "text": "Lesson Description", "status": "complete" }
+          ]
+        },
+        {
+          "id": "01-13",
+          "title": "Chapter 13",
+          "status": "complete",
+          "lessons": [
+            { "id": "01-13-01", "title": "Lesson 1", "text": "Lesson Description", "status": "complete" }
+          ]
+        },
+        {
+          "id": "01-14",
+          "title": "Chapter 14",
+          "status": "complete",
+          "lessons": [
+            { "id": "01-14-01", "title": "Lesson 1", "text": "Lesson Description", "status": "complete" }
+          ]
+        },
+        {
+          "id": "01-15",
+          "title": "Chapter 15",
+          "status": "complete",
+          "lessons": [
+            { "id": "01-15-01", "title": "Lesson 1", "text": "Lesson Description", "status": "complete" }
+          ]
+        },
+        {
+          "id": "01-16",
+          "title": "Chapter 16",
+          "status": "complete",
+          "lessons": [
+            { "id": "01-16-01", "title": "Lesson 1", "text": "Lesson Description", "status": "complete" }
+          ]
+        },
+        {
+          "id": "01-17",
+          "title": "Chapter 17",
+          "status": "complete",
+          "lessons": [
+            { "id": "01-17-01", "title": "Lesson 1", "text": "Lesson Description", "status": "complete" }
+          ]
+        },
+        {
+          "id": "01-18",
+          "title": "Chapter 18",
+          "status": "complete",
+          "lessons": [
+            { "id": "01-18-01", "title": "Lesson 1", "text": "Lesson Description", "status": "complete" }
+          ]
+        },
+        {
+          "id": "01-19",
+          "title": "Chapter 19",
+          "status": "complete",
+          "lessons": [
+            { "id": "01-19-01", "title": "Lesson 1", "text": "Lesson Description", "status": "complete" }
+          ]
+        },
+        {
+          "id": "01-20",
+          "title": "Chapter 20",
+          "status": "complete",
+          "lessons": [
+            { "id": "01-20-01", "title": "Lesson 1", "text": "Lesson Description", "status": "complete" }
+          ]
+        },
+        {
+          "id": "01-21",
+          "title": "Chapter 21",
+          "status": "complete",
+          "lessons": [
+            { "id": "01-21-01", "title": "Lesson 1", "text": "Lesson Description", "status": "complete" }
+          ]
+        },
+        {
+          "id": "01-22",
+          "title": "Chapter 22",
+          "status": "complete",
+          "lessons": [
+            { "id": "01-22-01", "title": "Lesson 1", "text": "Lesson Description", "status": "complete" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "Design Like a Real Developer",
+      "status": "complete",
+      "chapterCount": 25,
+      "chapters": [
+        {
+          "id": "02-01",
+          "title": "Chapter 1",
+          "status": "complete",
+          "lessons": [
+            { "id": "02-01-01", "title": "Lesson 1", "text": "Lesson Description", "status": "complete" }
+          ]
+        },
+        {
+          "id": "02-02",
+          "title": "Chapter 2",
+          "status": "complete",
+          "lessons": [
+            { "id": "02-02-01", "title": "Lesson 1", "text": "Lesson Description", "status": "complete" }
+          ]
+        },
+        {
+          "id": "02-03",
+          "title": "Chapter 3",
+          "status": "complete",
+          "lessons": [
+            { "id": "02-03-01", "title": "Lesson 1", "text": "Lesson Description", "status": "complete" }
+          ]
+        },
+        {
+          "id": "02-04",
+          "title": "Chapter 4",
+          "status": "complete",
+          "lessons": [
+            { "id": "02-04-01", "title": "Lesson 1", "text": "Lesson Description", "status": "complete" }
+          ]
+        },
+        {
+          "id": "02-05",
+          "title": "Chapter 5",
+          "status": "complete",
+          "lessons": [
+            { "id": "02-05-01", "title": "Lesson 1", "text": "Lesson Description", "status": "complete" }
+          ]
+        },
+        {
+          "id": "02-06",
+          "title": "Chapter 6",
+          "status": "complete",
+          "lessons": [
+            { "id": "02-06-01", "title": "Lesson 1", "text": "Lesson Description", "status": "complete" }
+          ]
+        },
+        {
+          "id": "02-07",
+          "title": "Chapter 7",
+          "status": "complete",
+          "lessons": [
+            { "id": "02-07-01", "title": "Lesson 1", "text": "Lesson Description", "status": "complete" }
+          ]
+        },
+        {
+          "id": "02-08",
+          "title": "Chapter 8",
+          "status": "complete",
+          "lessons": [
+            { "id": "02-08-01", "title": "Lesson 1", "text": "Lesson Description", "status": "complete" }
+          ]
+        },
+        {
+          "id": "02-09",
+          "title": "Chapter 9",
+          "status": "complete",
+          "lessons": [
+            { "id": "02-09-01", "title": "Lesson 1", "text": "Lesson Description", "status": "complete" }
+          ]
+        },
+        {
+          "id": "02-10",
+          "title": "Chapter 10",
+          "status": "complete",
+          "lessons": [
+            { "id": "02-10-01", "title": "Lesson 1", "text": "Lesson Description", "status": "complete" }
+          ]
+        },
+        {
+          "id": "02-11",
+          "title": "Chapter 11",
+          "status": "complete",
+          "lessons": [
+            { "id": "02-11-01", "title": "Lesson 1", "text": "Lesson Description", "status": "complete" }
+          ]
+        },
+        {
+          "id": "02-12",
+          "title": "Chapter 12",
+          "status": "complete",
+          "lessons": [
+            { "id": "02-12-01", "title": "Lesson 1", "text": "Lesson Description", "status": "complete" }
+          ]
+        },
+        {
+          "id": "02-13",
+          "title": "Chapter 13",
+          "status": "complete",
+          "lessons": [
+            { "id": "02-13-01", "title": "Lesson 1", "text": "Lesson Description", "status": "complete" }
+          ]
+        },
+        {
+          "id": "02-14",
+          "title": "Chapter 14",
+          "status": "complete",
+          "lessons": [
+            { "id": "02-14-01", "title": "Lesson 1", "text": "Lesson Description", "status": "complete" }
+          ]
+        },
+        {
+          "id": "02-15",
+          "title": "Chapter 15",
+          "status": "complete",
+          "lessons": [
+            { "id": "02-15-01", "title": "Lesson 1", "text": "Lesson Description", "status": "complete" }
+          ]
+        },
+        {
+          "id": "02-16",
+          "title": "Chapter 16",
+          "status": "complete",
+          "lessons": [
+            { "id": "02-16-01", "title": "Lesson 1", "text": "Lesson Description", "status": "complete" }
+          ]
+        },
+        {
+          "id": "02-17",
+          "title": "Chapter 17",
+          "status": "complete",
+          "lessons": [
+            { "id": "02-17-01", "title": "Lesson 1", "text": "Lesson Description", "status": "complete" }
+          ]
+        },
+        {
+          "id": "02-18",
+          "title": "Chapter 18",
+          "status": "complete",
+          "lessons": [
+            { "id": "02-18-01", "title": "Lesson 1", "text": "Lesson Description", "status": "complete" }
+          ]
+        },
+        {
+          "id": "02-19",
+          "title": "Chapter 19",
+          "status": "complete",
+          "lessons": [
+            { "id": "02-19-01", "title": "Lesson 1", "text": "Lesson Description", "status": "complete" }
+          ]
+        },
+        {
+          "id": "02-20",
+          "title": "Chapter 20",
+          "status": "complete",
+          "lessons": [
+            { "id": "02-20-01", "title": "Lesson 1", "text": "Lesson Description", "status": "complete" }
+          ]
+        },
+        {
+          "id": "02-21",
+          "title": "Chapter 21",
+          "status": "complete",
+          "lessons": [
+            { "id": "02-21-01", "title": "Lesson 1", "text": "Lesson Description", "status": "complete" }
+          ]
+        },
+        {
+          "id": "02-22",
+          "title": "Chapter 22",
+          "status": "complete",
+          "lessons": [
+            { "id": "02-22-01", "title": "Lesson 1", "text": "Lesson Description", "status": "complete" }
+          ]
+        },
+        {
+          "id": "02-23",
+          "title": "Chapter 23",
+          "status": "complete",
+          "lessons": [
+            { "id": "02-23-01", "title": "Lesson 1", "text": "Lesson Description", "status": "complete" }
+          ]
+        },
+        {
+          "id": "02-24",
+          "title": "Chapter 24",
+          "status": "complete",
+          "lessons": [
+            { "id": "02-24-01", "title": "Lesson 1", "text": "Lesson Description", "status": "complete" }
+          ]
+        },
+        {
+          "id": "02-25",
+          "title": "Chapter 25",
+          "status": "complete",
+          "lessons": [
+            { "id": "02-25-01", "title": "Lesson 1", "text": "Lesson Description", "status": "complete" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "title": "Build and Apply",
+      "status": "active",
+      "chapterCount": 16,
+      "chapters": [
+        {
+          "id": "03-01",
+          "title": "Chapter 1",
+          "status": "complete",
+          "lessons": [
+            { "id": "03-01-01", "title": "Lesson 1", "text": "Lesson Description", "status": "complete" }
+          ]
+        },
+        {
+          "id": "03-02",
+          "title": "Chapter 2",
+          "status": "complete",
+          "lessons": [
+            { "id": "03-02-01", "title": "Lesson 1", "text": "Lesson Description", "status": "complete" }
+          ]
+        },
+        {
+          "id": "03-03",
+          "title": "Chapter 3",
+          "status": "complete",
+          "lessons": [
+            { "id": "03-03-01", "title": "Lesson 1", "text": "Lesson Description", "status": "complete" }
+          ]
+        },
+        {
+          "id": "03-04",
+          "title": "Chapter 4",
+          "status": "complete",
+          "lessons": [
+            { "id": "03-04-01", "title": "Lesson 1", "text": "Lesson Description", "status": "complete" }
+          ]
+        },
+        {
+          "id": "03-05",
+          "title": "Chapter 5",
+          "status": "complete",
+          "lessons": [
+            { "id": "03-05-01", "title": "Lesson 1", "text": "Lesson Description", "status": "complete" }
+          ]
+        },
+        {
+          "id": "03-06",
+          "title": "Chapter 6",
+          "status": "complete",
+          "lessons": [
+            { "id": "03-06-01", "title": "Lesson 1", "text": "Lesson Description", "status": "complete" }
+          ]
+        },
+        {
+          "id": "03-07",
+          "title": "Chapter 7",
+          "status": "complete",
+          "lessons": [
+            { "id": "03-07-01", "title": "Lesson 1", "text": "Lesson Description", "status": "complete" }
+          ]
+        },
+        {
+          "id": "03-08",
+          "title": "Chapter 8",
+          "status": "complete",
+          "lessons": [
+            { "id": "03-08-01", "title": "Lesson 1", "text": "Lesson Description", "status": "complete" }
+          ]
+        },
+        {
+          "id": "03-09",
+          "title": "Chapter 9",
+          "status": "complete",
+          "lessons": [
+            { "id": "03-09-01", "title": "Lesson 1", "text": "Lesson Description", "status": "complete" }
+          ]
+        },
+        {
+          "id": "03-10",
+          "title": "Chapter 10",
+          "status": "complete",
+          "lessons": [
+            { "id": "03-10-01", "title": "Lesson 1", "text": "Lesson Description", "status": "complete" }
+          ]
+        },
+        {
+          "id": "03-11",
+          "title": "Chapter 11",
+          "status": "complete",
+          "lessons": [
+            { "id": "03-11-01", "title": "Lesson 1", "text": "Lesson Description", "status": "complete" }
+          ]
+        },
+        {
+          "id": "03-12",
+          "title": "Chapter 12",
+          "status": "complete",
+          "lessons": [
+            { "id": "03-12-01", "title": "Lesson 1", "text": "Lesson Description", "status": "complete" }
+          ]
+        },
+        {
+          "id": "03-13",
+          "title": "Chapter 13",
+          "status": "complete",
+          "lessons": [
+            { "id": "03-13-01", "title": "Lesson 1", "text": "Lesson Description", "status": "complete" }
+          ]
+        },
+        {
+          "id": "03-14",
+          "title": "Chapter 14",
+          "status": "complete",
+          "lessons": [
+            { "id": "03-14-01", "title": "Lesson 1", "text": "Lesson Description", "status": "complete" }
+          ]
+        },
+        {
+          "id": "03-15",
+          "title": "Chapter 15",
+          "status": "complete",
+          "lessons": [
+            { "id": "03-15-01", "title": "Lesson 1", "text": "Lesson Description", "status": "complete" }
+          ]
+        },
+        {
+          "id": "03-16",
+          "title": "Chapter 16",
+          "status": "active",
+          "lessons": [
+            { "id": "03-16-01", "title": "Lesson 1", "text": "Lesson Description", "status": "active" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "title": "JavaScript Mastery",
+      "status": "upcoming",
+      "chapterCount": 13,
+      "chapters": [
+        {
+          "id": "04-01",
+          "title": "Chapter 1",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "04-01-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "04-02",
+          "title": "Chapter 2",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "04-02-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "04-03",
+          "title": "Chapter 3",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "04-03-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "04-04",
+          "title": "Chapter 4",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "04-04-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "04-05",
+          "title": "Chapter 5",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "04-05-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "04-06",
+          "title": "Chapter 6",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "04-06-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "04-07",
+          "title": "Chapter 7",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "04-07-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "04-08",
+          "title": "Chapter 8",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "04-08-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "04-09",
+          "title": "Chapter 9",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "04-09-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "04-10",
+          "title": "Chapter 10",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "04-10-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "04-11",
+          "title": "Chapter 11",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "04-11-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "04-12",
+          "title": "Chapter 12",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "04-12-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "04-13",
+          "title": "Chapter 13",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "04-13-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "title": "Build Like a Pro",
+      "status": "upcoming",
+      "chapterCount": 22,
+      "chapters": [
+        {
+          "id": "05-01",
+          "title": "Chapter 1",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "05-01-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "05-02",
+          "title": "Chapter 2",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "05-02-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "05-03",
+          "title": "Chapter 3",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "05-03-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "05-04",
+          "title": "Chapter 4",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "05-04-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "05-05",
+          "title": "Chapter 5",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "05-05-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "05-06",
+          "title": "Chapter 6",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "05-06-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "05-07",
+          "title": "Chapter 7",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "05-07-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "05-08",
+          "title": "Chapter 8",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "05-08-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "05-09",
+          "title": "Chapter 9",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "05-09-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "05-10",
+          "title": "Chapter 10",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "05-10-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "05-11",
+          "title": "Chapter 11",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "05-11-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "05-12",
+          "title": "Chapter 12",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "05-12-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "05-13",
+          "title": "Chapter 13",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "05-13-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "05-14",
+          "title": "Chapter 14",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "05-14-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "05-15",
+          "title": "Chapter 15",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "05-15-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "05-16",
+          "title": "Chapter 16",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "05-16-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "05-17",
+          "title": "Chapter 17",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "05-17-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "05-18",
+          "title": "Chapter 18",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "05-18-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "05-19",
+          "title": "Chapter 19",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "05-19-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "05-20",
+          "title": "Chapter 20",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "05-20-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "05-21",
+          "title": "Chapter 21",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "05-21-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "05-22",
+          "title": "Chapter 22",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "05-22-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "title": "React Rocketship",
+      "status": "upcoming",
+      "chapterCount": 40,
+      "chapters": [
+        {
+          "id": "06-01",
+          "title": "Chapter 1",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "06-01-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "06-02",
+          "title": "Chapter 2",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "06-02-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "06-03",
+          "title": "Chapter 3",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "06-03-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "06-04",
+          "title": "Chapter 4",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "06-04-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "06-05",
+          "title": "Chapter 5",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "06-05-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "06-06",
+          "title": "Chapter 6",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "06-06-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "06-07",
+          "title": "Chapter 7",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "06-07-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "06-08",
+          "title": "Chapter 8",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "06-08-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "06-09",
+          "title": "Chapter 9",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "06-09-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "06-10",
+          "title": "Chapter 10",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "06-10-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "06-11",
+          "title": "Chapter 11",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "06-11-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "06-12",
+          "title": "Chapter 12",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "06-12-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "06-13",
+          "title": "Chapter 13",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "06-13-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "06-14",
+          "title": "Chapter 14",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "06-14-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "06-15",
+          "title": "Chapter 15",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "06-15-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "06-16",
+          "title": "Chapter 16",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "06-16-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "06-17",
+          "title": "Chapter 17",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "06-17-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "06-18",
+          "title": "Chapter 18",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "06-18-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "06-19",
+          "title": "Chapter 19",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "06-19-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "06-20",
+          "title": "Chapter 20",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "06-20-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "06-21",
+          "title": "Chapter 21",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "06-21-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "06-22",
+          "title": "Chapter 22",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "06-22-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "06-23",
+          "title": "Chapter 23",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "06-23-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "06-24",
+          "title": "Chapter 24",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "06-24-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "06-25",
+          "title": "Chapter 25",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "06-25-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "06-26",
+          "title": "Chapter 26",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "06-26-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "06-27",
+          "title": "Chapter 27",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "06-27-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "06-28",
+          "title": "Chapter 28",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "06-28-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "06-29",
+          "title": "Chapter 29",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "06-29-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "06-30",
+          "title": "Chapter 30",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "06-30-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "06-31",
+          "title": "Chapter 31",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "06-31-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "06-32",
+          "title": "Chapter 32",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "06-32-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "06-33",
+          "title": "Chapter 33",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "06-33-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "06-34",
+          "title": "Chapter 34",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "06-34-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "06-35",
+          "title": "Chapter 35",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "06-35-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "06-36",
+          "title": "Chapter 36",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "06-36-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "06-37",
+          "title": "Chapter 37",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "06-37-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "06-38",
+          "title": "Chapter 38",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "06-38-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "06-39",
+          "title": "Chapter 39",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "06-39-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "06-40",
+          "title": "Chapter 40",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "06-40-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "title": "Building Big Tech",
+      "status": "upcoming",
+      "chapterCount": 3,
+      "chapters": [
+        {
+          "id": "07-01",
+          "title": "Chapter 1",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "07-01-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "07-02",
+          "title": "Chapter 2",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "07-02-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "07-03",
+          "title": "Chapter 3",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "07-03-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "title": "Interviews",
+      "status": "upcoming",
+      "chapterCount": 16,
+      "chapters": [
+        {
+          "id": "08-01",
+          "title": "Chapter 1",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "08-01-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "08-02",
+          "title": "Chapter 2",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "08-02-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "08-03",
+          "title": "Chapter 3",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "08-03-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "08-04",
+          "title": "Chapter 4",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "08-04-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "08-05",
+          "title": "Chapter 5",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "08-05-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "08-06",
+          "title": "Chapter 6",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "08-06-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "08-07",
+          "title": "Chapter 7",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "08-07-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "08-08",
+          "title": "Chapter 8",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "08-08-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "08-09",
+          "title": "Chapter 9",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "08-09-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "08-10",
+          "title": "Chapter 10",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "08-10-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "08-11",
+          "title": "Chapter 11",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "08-11-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "08-12",
+          "title": "Chapter 12",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "08-12-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "08-13",
+          "title": "Chapter 13",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "08-13-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "08-14",
+          "title": "Chapter 14",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "08-14-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "08-15",
+          "title": "Chapter 15",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "08-15-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "08-16",
+          "title": "Chapter 16",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "08-16-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "title": "Virtual Internship",
+      "status": "upcoming",
+      "chapterCount": 9,
+      "chapters": [
+        {
+          "id": "09-01",
+          "title": "Chapter 1",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "09-01-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "09-02",
+          "title": "Chapter 2",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "09-02-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "09-03",
+          "title": "Chapter 3",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "09-03-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "09-04",
+          "title": "Chapter 4",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "09-04-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "09-05",
+          "title": "Chapter 5",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "09-05-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "09-06",
+          "title": "Chapter 6",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "09-06-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "09-07",
+          "title": "Chapter 7",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "09-07-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "09-08",
+          "title": "Chapter 8",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "09-08-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "09-09",
+          "title": "Chapter 9",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "09-09-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "title": "Advanced Technologies",
+      "status": "upcoming",
+      "chapterCount": 5,
+      "chapters": [
+        {
+          "id": "10-01",
+          "title": "Chapter 1",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "10-01-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "10-02",
+          "title": "Chapter 2",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "10-02-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "10-03",
+          "title": "Chapter 3",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "10-03-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "10-04",
+          "title": "Chapter 4",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "10-04-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "10-05",
+          "title": "Chapter 5",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "10-05-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "title": "Data Structures & Algorithms",
+      "status": "upcoming",
+      "chapterCount": 29,
+      "chapters": [
+        {
+          "id": "11-01",
+          "title": "Chapter 1",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "11-01-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "11-02",
+          "title": "Chapter 2",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "11-02-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "11-03",
+          "title": "Chapter 3",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "11-03-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "11-04",
+          "title": "Chapter 4",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "11-04-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "11-05",
+          "title": "Chapter 5",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "11-05-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "11-06",
+          "title": "Chapter 6",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "11-06-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "11-07",
+          "title": "Chapter 7",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "11-07-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "11-08",
+          "title": "Chapter 8",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "11-08-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "11-09",
+          "title": "Chapter 9",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "11-09-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "11-10",
+          "title": "Chapter 10",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "11-10-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "11-11",
+          "title": "Chapter 11",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "11-11-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "11-12",
+          "title": "Chapter 12",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "11-12-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "11-13",
+          "title": "Chapter 13",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "11-13-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "11-14",
+          "title": "Chapter 14",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "11-14-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "11-15",
+          "title": "Chapter 15",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "11-15-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "11-16",
+          "title": "Chapter 16",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "11-16-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "11-17",
+          "title": "Chapter 17",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "11-17-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "11-18",
+          "title": "Chapter 18",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "11-18-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "11-19",
+          "title": "Chapter 19",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "11-19-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "11-20",
+          "title": "Chapter 20",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "11-20-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "11-21",
+          "title": "Chapter 21",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "11-21-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "11-22",
+          "title": "Chapter 22",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "11-22-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "11-23",
+          "title": "Chapter 23",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "11-23-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "11-24",
+          "title": "Chapter 24",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "11-24-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "11-25",
+          "title": "Chapter 25",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "11-25-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "11-26",
+          "title": "Chapter 26",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "11-26-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "11-27",
+          "title": "Chapter 27",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "11-27-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "11-28",
+          "title": "Chapter 28",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "11-28-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "11-29",
+          "title": "Chapter 29",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "11-29-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "title": "Frontend Meets AI",
+      "status": "upcoming",
+      "chapterCount": 21,
+      "chapters": [
+        {
+          "id": "12-01",
+          "title": "Chapter 1",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "12-01-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "12-02",
+          "title": "Chapter 2",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "12-02-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "12-03",
+          "title": "Chapter 3",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "12-03-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "12-04",
+          "title": "Chapter 4",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "12-04-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "12-05",
+          "title": "Chapter 5",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "12-05-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "12-06",
+          "title": "Chapter 6",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "12-06-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "12-07",
+          "title": "Chapter 7",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "12-07-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "12-08",
+          "title": "Chapter 8",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "12-08-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "12-09",
+          "title": "Chapter 9",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "12-09-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "12-10",
+          "title": "Chapter 10",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "12-10-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "12-11",
+          "title": "Chapter 11",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "12-11-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "12-12",
+          "title": "Chapter 12",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "12-12-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "12-13",
+          "title": "Chapter 13",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "12-13-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "12-14",
+          "title": "Chapter 14",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "12-14-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "12-15",
+          "title": "Chapter 15",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "12-15-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "12-16",
+          "title": "Chapter 16",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "12-16-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "12-17",
+          "title": "Chapter 17",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "12-17-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "12-18",
+          "title": "Chapter 18",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "12-18-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "12-19",
+          "title": "Chapter 19",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "12-19-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "12-20",
+          "title": "Chapter 20",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "12-20-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "12-21",
+          "title": "Chapter 21",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "12-21-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "title": "Skinstric AI",
+      "status": "upcoming",
+      "chapterCount": 1,
+      "chapters": [
+        {
+          "id": "13-01",
+          "title": "Chapter 1",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "13-01-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "title": "Job Application",
+      "status": "upcoming",
+      "chapterCount": 8,
+      "chapters": [
+        {
+          "id": "14-01",
+          "title": "Chapter 1",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "14-01-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "14-02",
+          "title": "Chapter 2",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "14-02-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "14-03",
+          "title": "Chapter 3",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "14-03-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "14-04",
+          "title": "Chapter 4",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "14-04-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "14-05",
+          "title": "Chapter 5",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "14-05-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "14-06",
+          "title": "Chapter 6",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "14-06-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "14-07",
+          "title": "Chapter 7",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "14-07-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "14-08",
+          "title": "Chapter 8",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "14-08-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "title": "Full Stack Fundamentals",
+      "status": "upcoming",
+      "chapterCount": 43,
+      "chapters": [
+        {
+          "id": "15-01",
+          "title": "Chapter 1",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "15-01-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "15-02",
+          "title": "Chapter 2",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "15-02-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "15-03",
+          "title": "Chapter 3",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "15-03-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "15-04",
+          "title": "Chapter 4",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "15-04-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "15-05",
+          "title": "Chapter 5",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "15-05-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "15-06",
+          "title": "Chapter 6",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "15-06-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "15-07",
+          "title": "Chapter 7",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "15-07-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "15-08",
+          "title": "Chapter 8",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "15-08-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "15-09",
+          "title": "Chapter 9",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "15-09-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "15-10",
+          "title": "Chapter 10",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "15-10-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "15-11",
+          "title": "Chapter 11",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "15-11-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "15-12",
+          "title": "Chapter 12",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "15-12-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "15-13",
+          "title": "Chapter 13",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "15-13-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "15-14",
+          "title": "Chapter 14",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "15-14-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "15-15",
+          "title": "Chapter 15",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "15-15-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "15-16",
+          "title": "Chapter 16",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "15-16-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "15-17",
+          "title": "Chapter 17",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "15-17-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "15-18",
+          "title": "Chapter 18",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "15-18-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "15-19",
+          "title": "Chapter 19",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "15-19-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "15-20",
+          "title": "Chapter 20",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "15-20-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "15-21",
+          "title": "Chapter 21",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "15-21-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "15-22",
+          "title": "Chapter 22",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "15-22-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "15-23",
+          "title": "Chapter 23",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "15-23-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "15-24",
+          "title": "Chapter 24",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "15-24-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "15-25",
+          "title": "Chapter 25",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "15-25-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "15-26",
+          "title": "Chapter 26",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "15-26-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "15-27",
+          "title": "Chapter 27",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "15-27-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "15-28",
+          "title": "Chapter 28",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "15-28-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "15-29",
+          "title": "Chapter 29",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "15-29-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "15-30",
+          "title": "Chapter 30",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "15-30-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "15-31",
+          "title": "Chapter 31",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "15-31-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "15-32",
+          "title": "Chapter 32",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "15-32-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "15-33",
+          "title": "Chapter 33",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "15-33-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "15-34",
+          "title": "Chapter 34",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "15-34-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "15-35",
+          "title": "Chapter 35",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "15-35-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "15-36",
+          "title": "Chapter 36",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "15-36-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "15-37",
+          "title": "Chapter 37",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "15-37-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "15-38",
+          "title": "Chapter 38",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "15-38-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "15-39",
+          "title": "Chapter 39",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "15-39-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "15-40",
+          "title": "Chapter 40",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "15-40-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "15-41",
+          "title": "Chapter 41",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "15-41-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "15-42",
+          "title": "Chapter 42",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "15-42-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        },
+        {
+          "id": "15-43",
+          "title": "Chapter 43",
+          "status": "upcoming",
+          "lessons": [
+            { "id": "15-43-01", "title": "Lesson 1", "text": "Lesson Description", "status": "upcoming" }
+          ]
+        }
+      ]
+    }
+  ]
+}

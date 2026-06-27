@@ -1,6 +1,6 @@
 // app.js
 async function loadData() {
-  const res = await fetch("./data.json");
+  const res = await fetch("./src/data.json");
   return await res.json();
 }
 

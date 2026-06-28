@@ -32,9 +32,18 @@ function createChapterStep(chapter) {
   if (chapter.status === "complete") li.classList.add("is-complete");
   if (chapter.status === "active") li.classList.add("is-active");
 
+  // If there is a "text" member of the "lessons" array then put the text below the chapter.
+  const lessonTextHtml = Array.isArray(chapter.lessons)
+    ? chapter.lessons
+        .filter(lesson => lesson && lesson.text)
+        .map(lesson => `<p>${lesson.text}</p>`)
+        .join("")
+    : "";
+
   li.innerHTML = `
     <div class="progress-text">
       <h5>${chapter.title}</h5>
+      ${lessonTextHtml}
     </div>
   `;
 

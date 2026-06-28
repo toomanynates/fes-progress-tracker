@@ -561,9 +561,9 @@
         {
           "id": "03-16",
           "title": "Chapter 16",
-          "status": "active",
+          "status": "complete",
           "lessons": [
-            { "id": "03-16-01", "title": "Lesson 1", "status": "active" }
+            { "id": "03-16-01", "title": "Lesson 1", "status": "complete" }
           ]
         }
       ]
@@ -579,7 +579,7 @@
           "title": "Chapter 1",
           "status": "upcoming",
           "lessons": [
-            { "id": "04-01-01", "title": "Lesson 1", "status": "upcoming" }
+            { "id": "04-01-01", "title": "Lesson 1", "text": "<p id='current'>Current Lesson</p>", "status": "upcoming" }
           ]
         },
         {

@@ -193,14 +193,13 @@ h1, h2 {
 }
 /* Clamp from 375 - 768px */
 h1 { font-size: 3rem; font-size: clamp(2.5rem, 2.0229rem + 2.0356vw, 3rem); }
-h2 { font-size: 2rem; font-size: clamp(1.5rem, 1.0229rem + 2.0356vw, 2rem); }
+h2 { font-size: 2rem; font-size: clamp(1.5rem, 1.0229rem + 2.0356vw, 2rem); margin: 24px 0; }
 h3 { font-size: 1.5rem; font-size: clamp(1.25rem, 1.0115rem + 1.0178vw, 1.5rem); margin-top: 2rem; margin-bottom: 0.75rem; }
 h4 { font-size: 1.25rem; font-size: clamp(1.125rem, 1.0057rem + 0.5089vw, 1.25rem); }
-h5 { font-size: 1rem; }
-h6 { font-size: 1rem; }
-p {
-
-}
+h5 { font-size: 1.25rem; }
+h6 { font-size: 1.25rem; }
+p  { font-size: 1.25rem; }
+a  { font-size: 1.25rem; }
 ul, ol {
   padding-left: 32px;
   padding-left: var(--layout-space-md);
@@ -231,6 +230,7 @@ html {
 [id]:not(.fullwidth) {
   scroll-margin-block-start: 1ex;
 }
+
 .img-fluid {
   max-width: 100%;
   height: auto;

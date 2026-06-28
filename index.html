@@ -14,10 +14,36 @@
         <div class="container content flow">
 
           <div class="heading page-intro">
-            <h2 class="page-heading">Front End Simplified class progress</h2>
+            <h1 class="page-heading">Front End Simplified class progress</h1>
 
             <img src="./src/images/progress-tracker-logo.svg" class="page-intro-img" width="80" height="80" alt="Progress Tracker logo">
           </div>
+          <h3>How to read the symbols below</h3>
+          <section class="demo demo--vertical">
+            <ol class="progress-tracker progress-tracker--vertical">
+              <li class="progress-step is-complete">
+                <div class="progress-text">
+                  <h4 class="progress-title">Light Blue</h4>
+                  <p>This step has been completed</p>
+                </div>
+              </li>
+    
+              <li class="progress-step is-active" aria-current="step">
+                <div class="progress-text">
+                  <h4 class="progress-title">Dark Blue</h4>
+                  <p>This step is in progress</p>
+                </div>
+              </li>
+    
+              <li class="progress-step">
+                <div class="progress-text">
+                  <h4 class="progress-title">Gray</h4>
+                  <p>This step hasn't been started</p>
+                </div>
+              </li>
+            </ol>
+          </section>
+
 
 <!-- Currently unused extra info 
           <h3>Features</h3> 
@@ -37,7 +63,9 @@
         <div id="timeline"></div>
       </div>
 
-      <script src="./src/app.js"></script>
+      <div class="section-heading"> 
+        <script src="./src/app.js"></script>
+      </div>
     </main>
 </body>
 </html>

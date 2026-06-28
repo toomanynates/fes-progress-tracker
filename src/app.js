@@ -4,7 +4,7 @@ async function loadData() {
   return await res.json();
 }
 
-// Overall Progrress rendering
+// Overall Progress rendering
 function createModuleStep(module) {
   const li = document.createElement("li");
   li.classList.add("progress-step");
@@ -79,6 +79,22 @@ function renderTimeline(data) {
   // Append the overall progress tracker to the page.
   overviewSection.appendChild(overviewList);
   container.appendChild(overviewSection);
+
+  // add a heading for the detailed tracker section
+  const detailHeading = document.createElement("h2");
+  detailHeading.textContent = "Detailed Progress";
+  container.appendChild(detailHeading);
+
+  // add text that says, "If you want to skip to the active lesson, click the link below." followed by a link to the #current lesson.
+  const currentLessonText = document.createElement("p");
+  currentLessonText.innerHTML = "If you want to skip to the active lesson, click the link below.";
+  container.appendChild(currentLessonText);
+
+  const currentLessonLink = document.createElement("a");
+  currentLessonLink.href = "#current";
+  currentLessonLink.textContent = "Go to Current Lesson";
+  container.appendChild(currentLessonLink);
+
 
   // Render the detailed vertical tracker for each module below the summary.
   modules.forEach(module => {

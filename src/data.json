@@ -435,7 +435,7 @@
     {
       "id": "03",
       "title": "Build and Apply",
-      "status": "active",
+      "status": "complete",
       "chapterCount": 16,
       "chapters": [
         {
@@ -571,31 +571,31 @@
     {
       "id": "04",
       "title": "JavaScript Mastery",
-      "status": "upcoming",
+      "status": "active",
       "chapterCount": 13,
       "chapters": [
         {
           "id": "04-01",
           "title": "Chapter 1",
-          "status": "upcoming",
+          "status": "complete",
           "lessons": [
-            { "id": "04-01-01", "title": "Lesson 1", "text": "<p id='current'>Current Lesson</p>", "status": "upcoming" }
+            { "id": "04-01-01", "title": "Lesson 1", "status": "complete" }
           ]
         },
         {
           "id": "04-02",
           "title": "Chapter 2",
-          "status": "upcoming",
+          "status": "complete",
           "lessons": [
-            { "id": "04-02-01", "title": "Lesson 1", "status": "upcoming" }
+            { "id": "04-02-01", "title": "Lesson 1", "status": "complete" }
           ]
         },
         {
           "id": "04-03",
           "title": "Chapter 3",
-          "status": "upcoming",
+          "status": "active",
           "lessons": [
-            { "id": "04-03-01", "title": "Lesson 1", "status": "upcoming" }
+            { "id": "04-03-01", "title": "Lesson 1", "text": "<p id='current'>Current Lesson</p>", "status": "active" }
           ]
         },
         {

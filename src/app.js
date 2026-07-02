@@ -1,3 +1,20 @@
+let tempFah = 0;
+let tempCel = 5;
+
+const convertCelsiusToFahrenheit = (tempCelsius) => {
+  console.log(`function convertCelsiusToFahrenheit(${tempCelsius})`);
+  if (typeof tempCelsius !== "number") {
+    console.log("Input must be a number");
+  } else {
+    return (tempCelsius * 1.8) + 32;
+  }
+};
+
+
+tempFah = convertCelsiusToFahrenheit(tempCel);
+console.log(`Celsius: ${tempCel}°C`);
+console.log(`Fahrenheit: ${tempFah}°F`);
+
 // app.js
 async function loadData() {
   const res = await fetch("./src/data.json");

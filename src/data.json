@@ -593,17 +593,17 @@
         {
           "id": "04-03",
           "title": "Chapter 3",
-          "status": "active",
+          "status": "complete",
           "lessons": [
-            { "id": "04-03-01", "title": "Lesson 1", "text": "<p id='current'>Current Lesson</p>", "status": "active" }
+            { "id": "04-03-01", "title": "Lesson 1", "text": "<p>Promises</p>", "status": "complete" }
           ]
         },
         {
           "id": "04-04",
           "title": "Chapter 4",
-          "status": "upcoming",
+          "status": "active",
           "lessons": [
-            { "id": "04-04-01", "title": "Lesson 1", "status": "upcoming" }
+            { "id": "04-04-01", "title": "Lesson 1", "text": "<p id='current'>Current Lesson<br>Problem Solving: Beginner</p>", "status": "active" }
           ]
         },
         {

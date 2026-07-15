@@ -1,21 +1,8 @@
-let tempFah = 0;
-let tempCel = 5;
 
-const convertCelsiusToFahrenheit = (tempCelsius) => {
-  console.log(`function convertCelsiusToFahrenheit(${tempCelsius})`);
-  if (typeof tempCelsius !== "number") {
-    console.log("Input must be a number");
-  } else {
-    return (tempCelsius * 1.8) + 32;
-  }
-};
+/***************************************************************************
+ * app.js
+ **************************************************************************/
 
-
-tempFah = convertCelsiusToFahrenheit(tempCel);
-console.log(`Celsius: ${tempCel}°C`);
-console.log(`Fahrenheit: ${tempFah}°F`);
-
-// app.js
 async function loadData() {
   const res = await fetch("./src/data.json");
   return await res.json();
@@ -67,6 +54,20 @@ function createChapterStep(chapter) {
   return li;
 }
 
+function getUpcomingChapterCount(data) {
+  const upcomingChapterCount = data.modules
+    .filter(module => module.id !== "00")
+    .reduce((count, module) => {
+      const chapterCount = Array.isArray(module.chapters)
+        ? module.chapters.filter(chapter => chapter.status === "upcoming").length
+        : 0;
+
+      return count + chapterCount;
+    }, 0);
+
+  return upcomingChapterCount;
+}
+
 function renderTimeline(data) {
   // Clear the existing timeline content before rebuilding it.
   const container = document.getElementById("timeline");
@@ -78,6 +79,10 @@ function renderTimeline(data) {
   // Build the top summary section for overall progress.
   const overviewSection = document.createElement("section");
   overviewSection.className = "overall-progress";
+
+  /**************************************************
+   * Overall Progress
+   *************************************************/
 
   // Add the heading for the overall progress summary.
   const heading = document.createElement("h2");
@@ -95,7 +100,25 @@ function renderTimeline(data) {
 
   // Append the overall progress tracker to the page.
   overviewSection.appendChild(overviewList);
+
+  const completionEstimate = document.createElement("p");
+  const upcomingChapterCount = getUpcomingChapterCount(data);
+  const completionDate = new Date();
+  completionDate.setDate(completionDate.getDate() + upcomingChapterCount);
+
+  completionEstimate.innerHTML = `<br><h4><strong>Estimated date of completion</strong></h4><ul><li>${upcomingChapterCount} lessons remaining.</li><li>Assuming one lesson per day: ${completionDate.toLocaleDateString(undefined, {
+    year: "numeric",
+    month: "long",
+    day: "numeric"
+  })}</li></ul>`;
+
+  overviewSection.appendChild(completionEstimate);
+
   container.appendChild(overviewSection);
+
+  /**************************************************
+   * Detailed Progress
+   *************************************************/
 
   // add a heading for the detailed tracker section
   const detailHeading = document.createElement("h2");

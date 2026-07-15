@@ -603,7 +603,9 @@
           "title": "Chapter 4",
           "status": "active",
           "lessons": [
-            { "id": "04-04-01", "title": "Lesson 1", "text": "<p id='current'>Current Lesson<br>Problem Solving: Beginner</p>", "status": "active" }
+            { "id": "04-04-01", "title": "Lesson 1", "text": "<p>Problem Solving: Beginner (Complete)</p>", "status": "complete" },
+            { "id": "04-04-02", "title": "Lesson 2", "text": "<p id='current'>Problem Solving: Intermediate (Current)</p>", "status": "active" },
+            { "id": "04-04-03", "title": "Lesson 3", "text": "<p>Problem Solving: Advanced</p>", "status": "active" }
           ]
         },
         {

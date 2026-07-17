@@ -14,7 +14,7 @@ function createModuleStep(module) {
   li.classList.add("progress-step");
 
   if (module.status === "complete") li.classList.add("is-complete");
-  if (module.status === "active") {
+  if (module.status === "active") { 
     li.classList.add("is-active");
     li.setAttribute("aria-current", "step");
   }

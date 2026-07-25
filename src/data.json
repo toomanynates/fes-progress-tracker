@@ -571,7 +571,7 @@
     {
       "id": "04",
       "title": "JavaScript Mastery",
-      "status": "active",
+      "status": "complete",
       "chapterCount": 13,
       "chapters": [
         {
@@ -613,55 +613,55 @@
     {
       "id": "05",
       "title": "Build Like a Pro",
-      "status": "active",
+      "status": "complete",
       "chapterCount": 22,
       "chapters": [
         {
           "id": "05-01",
           "title": "Chapter 1: Advanced Project",
-          "status": "active",
+          "status": "complete",
           "lessons": [
-            { "id": "05-01-01", "text": "<p id='current'>Introduction</p>", "status": "active" }
+            { "id": "05-01-01", "text": "<p id='current'></p>", "status": "complete" }
           ]
         },
         {
           "id": "05-02",
           "title": "Lesson 2",
-          "status": "upcoming",
+          "status": "complete",
           "lessons": [
-            { "id": "05-02-01", "title": "Lesson 1", "status": "upcoming" }
+            { "id": "05-02-01", "title": "Lesson 1", "status": "complete" }
           ]
         },
         {
           "id": "05-03",
           "title": "Lesson 3",
-          "status": "upcoming",
+          "status": "complete",
           "lessons": [
-            { "id": "05-03-01", "title": "Lesson 1", "status": "upcoming" }
+            { "id": "05-03-01", "title": "Lesson 1", "status": "complete" }
           ]
         },
         {
           "id": "05-04",
           "title": "Lesson 4",
-          "status": "upcoming",
+          "status": "complete",
           "lessons": [
-            { "id": "05-04-01", "title": "Lesson 1", "status": "upcoming" }
+            { "id": "05-04-01", "title": "Lesson 1", "status": "complete" }
           ]
         },
         {
           "id": "05-05",
           "title": "Lesson 5",
-          "status": "upcoming",
+          "status": "complete",
           "lessons": [
-            { "id": "05-05-01", "title": "Lesson 1", "status": "upcoming" }
+            { "id": "05-05-01", "title": "Lesson 1", "status": "complete" }
           ]
         },
         {
           "id": "05-06",
           "title": "Lesson 6",
-          "status": "upcoming",
+          "status": "active",
           "lessons": [
-            { "id": "05-06-01", "title": "Lesson 1", "status": "upcoming" }
+            { "id": "05-06-01", "text": "<p id='current'>Project Section</p>", "title": "Lesson 1", "status": "active" }
           ]
         },
         {

@@ -750,7 +750,7 @@
           "title": "Chapter 02",
           "status": "active",
           "lessons": [
-            { "id": "05-17-01", "title": "Lesson 1", "status": "Active" }
+            { "id": "05-17-01", "title": "Lesson 1", "status": "active" }
           ]
         },
         {

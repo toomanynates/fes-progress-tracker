@@ -659,65 +659,66 @@
         {
           "id": "05-06",
           "title": "Lesson 6",
-          "status": "active",
+          "status": "complete",
           "lessons": [
-            { "id": "05-06-01", "text": "<p id='current'>Project Section</p>", "title": "Lesson 1", "status": "active" }
+            { "id": "05-06-01", "title": "Lesson 1", "status": "complete" }
           ]
         },
         {
           "id": "05-07",
           "title": "Lesson 7",
-          "status": "upcoming",
+          "status": "complete",
           "lessons": [
-            { "id": "05-07-01", "title": "Lesson 1", "status": "upcoming" }
+            { "id": "05-07-01", "title": "Lesson 1", "status": "complete" }
           ]
         },
         {
           "id": "05-08",
           "title": "Lesson 8",
-          "status": "upcoming",
+          "status": "complete",
           "lessons": [
-            { "id": "05-08-01", "title": "Lesson 1", "status": "upcoming" }
+            { "id": "05-08-01", "title": "Lesson 1", "status": "complete" }
           ]
         },
         {
           "id": "05-09",
           "title": "Lesson 9",
-          "status": "upcoming",
+          "status": "complete",
           "lessons": [
-            { "id": "05-09-01", "title": "Lesson 1", "status": "upcoming" }
+            { "id": "05-09-01", "title": "Lesson 1", "status": "complete" }
           ]
         },
         {
           "id": "05-10",
           "title": "Lesson 10",
-          "status": "upcoming",
+          "status": "complete",
           "lessons": [
-            { "id": "05-10-01", "title": "Lesson 1", "status": "upcoming" }
+            { "id": "05-10-01", "title": "Lesson 1", "status": "complete" }
           ]
         },
         {
           "id": "05-11",
           "title": "Lesson 11",
-          "status": "upcoming",
+          "status": "complete",
           "lessons": [
-            { "id": "05-11-01", "title": "Lesson 1", "status": "upcoming" }
+            { "id": "05-11-01", "title": "Lesson 1", "status": "complete" }
           ]
         },
         {
           "id": "05-12",
           "title": "Lesson 12",
-          "status": "upcoming",
+          "status": "complete",
           "lessons": [
-            { "id": "05-12-01", "title": "Lesson 1", "status": "upcoming" }
+            { "id": "05-12-01", "title": "Lesson 1", "status": "complete" }
           ]
         },
         {
           "id": "05-13",
           "title": "Lesson 13",
-          "status": "upcoming",
+          "status": "active",
           "lessons": [
-            { "id": "05-13-01", "title": "Lesson 1", "status": "upcoming" }
+            { "id": "05-13-01", "text": "Dark Mode", "status": "active" },
+            { "id": "05-13-02", "text": "<p id='current'>Current Lesson</p>", "status": "active" }
           ]
         },
         {
@@ -747,9 +748,9 @@
         {
           "id": "05-17",
           "title": "Chapter 02",
-          "status": "upcoming",
+          "status": "active",
           "lessons": [
-            { "id": "05-17-01", "title": "Lesson 1", "status": "upcoming" }
+            { "id": "05-17-01", "title": "Lesson 1", "status": "Active" }
           ]
         },
         {

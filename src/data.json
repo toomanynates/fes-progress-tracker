@@ -659,97 +659,98 @@
         {
           "id": "05-06",
           "title": "Lesson 6",
-          "status": "active",
+          "status": "complete",
           "lessons": [
-            { "id": "05-06-01", "text": "<p id='current'>Project Section</p>", "title": "Lesson 1", "status": "active" }
+            { "id": "05-06-01", "text": "<p>Project Section</p>", "title": "Lesson 1", "status": "complete" }
           ]
         },
         {
           "id": "05-07",
           "title": "Lesson 7",
-          "status": "upcoming",
+          "status": "complete",
           "lessons": [
-            { "id": "05-07-01", "title": "Lesson 1", "status": "upcoming" }
+            { "id": "05-07-01", "title": "Lesson 1", "status": "complete" }
           ]
         },
         {
           "id": "05-08",
           "title": "Lesson 8",
-          "status": "upcoming",
+          "status": "complete",
           "lessons": [
-            { "id": "05-08-01", "title": "Lesson 1", "status": "upcoming" }
+            { "id": "05-08-01", "title": "Lesson 1", "status": "complete" }
           ]
         },
         {
           "id": "05-09",
           "title": "Lesson 9",
-          "status": "upcoming",
+          "status": "complete",
           "lessons": [
-            { "id": "05-09-01", "title": "Lesson 1", "status": "upcoming" }
+            { "id": "05-09-01", "title": "Lesson 1", "status": "complete" }
           ]
         },
         {
           "id": "05-10",
           "title": "Lesson 10",
-          "status": "upcoming",
+          "status": "complete",
           "lessons": [
-            { "id": "05-10-01", "title": "Lesson 1", "status": "upcoming" }
+            { "id": "05-10-01", "title": "Lesson 1", "status": "complete" }
           ]
         },
         {
           "id": "05-11",
           "title": "Lesson 11",
-          "status": "upcoming",
+          "status": "complete",
           "lessons": [
-            { "id": "05-11-01", "title": "Lesson 1", "status": "upcoming" }
+            { "id": "05-11-01", "title": "Lesson 1", "status": "complete" }
           ]
         },
         {
           "id": "05-12",
           "title": "Lesson 12",
-          "status": "upcoming",
+          "status": "complete",
           "lessons": [
-            { "id": "05-12-01", "title": "Lesson 1", "status": "upcoming" }
+            { "id": "05-12-01", "title": "Lesson 1", "status": "complete" }
           ]
         },
         {
           "id": "05-13",
           "title": "Lesson 13",
-          "status": "upcoming",
+          "status": "complete",
           "lessons": [
-            { "id": "05-13-01", "title": "Lesson 1", "status": "upcoming" }
+            { "id": "05-13-01", "title": "Lesson 1", "status": "complete" }
           ]
         },
         {
           "id": "05-14",
           "title": "Lesson 14",
-          "status": "upcoming",
+          "status": "complete",
           "lessons": [
-            { "id": "05-14-01", "title": "Lesson 1", "status": "upcoming" }
+            { "id": "05-14-01", "title": "Lesson 1", "status": "complete" }
           ]
         },
         {
           "id": "05-15",
           "title": "Lesson 15",
-          "status": "upcoming",
+          "status": "complete",
           "lessons": [
-            { "id": "05-15-01", "title": "Lesson 1", "status": "upcoming" }
+            { "id": "05-15-01", "title": "Lesson 1", "status": "complete" }
           ]
         },
         {
           "id": "05-16",
           "title": "Lesson 16",
-          "status": "upcoming",
+          "status": "complete",
           "lessons": [
-            { "id": "05-16-01", "title": "Lesson 1", "status": "upcoming" }
+            { "id": "05-16-01", "title": "Lesson 1", "text": "<p id='current'>Final Project</p>", "status": "complete" },
+            { "id": "05-16-02", "title": "Lesson 1", "text": "<a href='https://toomanynates.github.io/fes-m05-ch01/' target='blank'>Final Project</a>", "status": "complete" }
           ]
         },
         {
           "id": "05-17",
-          "title": "Chapter 02",
-          "status": "upcoming",
+          "title": "Chapter 02: E-Commerce App",
+          "status": "active",
           "lessons": [
-            { "id": "05-17-01", "title": "Lesson 1", "status": "upcoming" }
+            { "id": "05-17-01", "title": "Lesson 1", "status": "active" }
           ]
         },
         {
@@ -770,7 +771,7 @@
         },
         {
           "id": "05-20",
-          "title": "Chapter 03",
+          "title": "Chapter 03: final Preparation",
           "status": "upcoming",
           "lessons": [
             { "id": "05-20-01", "title": "Lesson 1", "status": "upcoming" }
@@ -786,7 +787,7 @@
         },
         {
           "id": "05-22",
-          "title": "Chapter 04",
+          "title": "Chapter 04: Individual Project",
           "status": "upcoming",
           "lessons": [
             { "id": "05-22-01", "title": "Lesson 1", "status": "upcoming" }

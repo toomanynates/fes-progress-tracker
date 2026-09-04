@@ -749,41 +749,42 @@
         {
           "id": "05-17",
           "title": "Chapter 02: E-Commerce App",
-          "status": "active",
+          "status": "complete",
           "lessons": [
-            { "id": "05-17-01", "title": "Lesson 1", "status": "active" }
+            { "id": "05-17-01", "title": "Lesson 1", "status": "complete" }
           ]
         },
         {
           "id": "05-18",
           "title": "Lesson 2",
-          "status": "upcoming",
+          "status": "complete",
           "lessons": [
-            { "id": "05-18-01", "title": "Lesson 1", "status": "upcoming" }
+            { "id": "05-18-01", "title": "Lesson 1", "status": "complete" }
           ]
         },
         {
           "id": "05-19",
           "title": "Lesson 3",
-          "status": "upcoming",
+          "status": "complete",
           "lessons": [
-            { "id": "05-19-01", "title": "Lesson 1", "status": "upcoming" }
+            { "id": "05-19-01", "title": "Lesson 1", "status": "complete" },
+            { "id": "05-19-02", "title": "Lesson 1", "text": "<a href='https://toomanynates.github.io/fes-M05-CH02/' target='blank'>Final Project</a>", "status": "complete" }
           ]
         },
         {
           "id": "05-20",
           "title": "Chapter 03: final Preparation",
-          "status": "upcoming",
+          "status": "complete",
           "lessons": [
-            { "id": "05-20-01", "title": "Lesson 1", "status": "upcoming" }
+            { "id": "05-20-01", "title": "Lesson 1", "status": "complete" }
           ]
         },
         {
           "id": "05-21",
           "title": "Lesson 2",
-          "status": "upcoming",
+          "status": "active",
           "lessons": [
-            { "id": "05-21-01", "title": "Lesson 1", "status": "upcoming" }
+            { "id": "05-21-01", "title": "Lesson 1", "status": "active" }
           ]
         },
         {

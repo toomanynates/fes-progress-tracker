@@ -125,6 +125,17 @@ function renderTimeline(data) {
   detailHeading.textContent = "Detailed Progress";
   container.appendChild(detailHeading);
 
+  // add "Here is the most comprehensive project page that shows my projects:" and then include a link to https://toomanynates.github.io/fes-website/#projects
+  const projectText = document.createElement("p");
+  projectText.innerHTML = "Here is the most comprehensive project page that shows my projects: ";
+  container.appendChild(projectText);
+
+  const projectLink = document.createElement("a");
+  projectLink.href = "https://toomanynates.github.io/fes-website";
+  projectLink.innerHTML = "My Projects<br><br>";
+  projectLink.target = "_blank";
+  container.appendChild(projectLink);
+
   // add text that says, "If you want to skip to the active lesson, click the link below." followed by a link to the #current lesson.
   const currentLessonText = document.createElement("p");
   currentLessonText.innerHTML = "If you want to skip to the active lesson, click the link below.";
